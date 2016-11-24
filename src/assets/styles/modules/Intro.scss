@@ -1,0 +1,46 @@
+@import './../global';
+
+
+
+.Intro {
+  font-family: 'Lato';
+  background: black;
+  color: white;
+  height: 100vh;
+  //max-height: 960px;
+}
+
+.site-title {
+  margin: 0;
+  padding-top: 6.6rem;
+  margin-left: 5rem;
+  font-size: 1.8rem;
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover, &:active {
+      color: $yellow;
+    }
+  }
+}
+.site-description {
+  margin: 0;
+  @include content-position-main;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-top: 20vh;
+  del { color: #c7c7c7; }
+  strong { color: $yellow; font-weight: 400; }
+}
+.site-contact {
+  font-size: 2.4rem;
+  line-height: 1.54;
+  margin-left: 16.7%;
+  margin-top: 8rem;
+  max-width: 60rem;
+  a {
+    color: $yellow;
+    text-decoration: none;
+  }
+}

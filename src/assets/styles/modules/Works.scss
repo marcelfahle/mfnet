@@ -1,0 +1,37 @@
+@import './../global';
+
+
+.works-wrapper {
+  padding-top: 8em;
+  padding-bottom: 15em;
+  background: white; 
+}
+.works-content {
+  @include content-position-main;
+  text-align: center;
+}
+.works-title {
+  @include h2;
+}
+.works-intro {
+  @include copy;
+  max-width: 68%;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+} 
+.works-grid {
+  width: 93%;
+  margin: 0 auto;
+}
+.works-project {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  margin-bottom: 2%;
+  img { width: 100%; margin-bottom: 15px; }
+}
+.works-project.featured-project {
+  width: 66%;
+  margin-right: 2%;
+}
+

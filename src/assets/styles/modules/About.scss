@@ -1,0 +1,32 @@
+@import './../global';
+
+
+.about-wrapper {
+  @include content-position-main;
+  margin-top: 10em;
+  padding-bottom: 15em;
+}
+.about-wrapper__photo,
+.about-wrapper__content {
+	display: inline-block;
+}
+
+.about-wrapper__photo {
+	width: 340px;
+  margin-right: 90px;
+  vertical-align: top;
+  img {
+    width: 100%; 
+  }
+}
+.about-wrapper__content {
+	width: 390px;
+  vertical-align: top;
+  p {
+    @include copy;
+  }
+}
+.about__title {
+  @include h2;
+  margin-top: 0;
+}
