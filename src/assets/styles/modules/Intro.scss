@@ -31,7 +31,7 @@
   line-height: 1.6;
   margin-top: 20vh;
   del { color: #c7c7c7; }
-  strong { color: $yellow; font-weight: 400; }
+  strong, a { color: $yellow; font-weight: 400; text-decoration: none; }
 }
 .site-contact {
   font-size: 2.4rem;
